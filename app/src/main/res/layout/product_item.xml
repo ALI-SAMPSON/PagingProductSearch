@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="@dimen/margin_smallest"
+    app:cardElevation="@dimen/zero_elevation"
+    app:cardCornerRadius="@dimen/zero_radius"
+    app:cardBackgroundColor="@color/colorWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mBatchNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:text="Batch Number"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintEnd_toStartOf="@+id/mMenuButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mProductName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:text="Product Name"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintTop_toBottomOf="@+id/mBatchNumber"
+            app:layout_constraintEnd_toStartOf="@+id/mCategory"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mProductPrice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_marginStart="@dimen/margin_normal"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:text="Product Price"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintTop_toBottomOf="@+id/mProductName"
+            app:layout_constraintEnd_toStartOf="@+id/mCategory"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mProductQty"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_normal"
+            android:text="Product Qty"
+            android:textColor="@color/colorDark"
+            android:textSize="@dimen/text_size_normal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/mProductStatus"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mProductPrice"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:paddingStart="3dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="0dp"
+            android:text="Category"
+            android:gravity="end"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintTop_toTopOf="@+id/mProductName"
+            app:layout_constraintBottom_toBottomOf="@+id/mProductPrice"
+            app:layout_constraintBottom_toTopOf="@+id/mProductStatus"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/mProductName"
+            app:layout_constraintTop_toBottomOf="@+id/mMenuButton" />
+
+        <ProgressBar
+            android:id="@+id/mProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleSmall"
+            android:visibility="invisible"
+            android:layout_marginEnd="@dimen/margin_normal"
+            app:layout_constraintTop_toTopOf="@+id/mProductQty"
+            app:layout_constraintBottom_toBottomOf="@+id/mProductQty"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/mProductQty" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/mProductStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:background="@drawable/green_status_tag_style"
+            android:paddingStart="3dp"
+            android:paddingTop="0dp"
+            android:paddingEnd="3dp"
+            android:paddingBottom="0dp"
+            android:text="TextView"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_small"
+            app:layout_constraintTop_toTopOf="@+id/mProductQty"
+            app:layout_constraintBottom_toBottomOf="@+id/mProductQty"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/mProductQty" />
+
+        <ImageButton
+            android:id="@+id/mMenuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginEnd="@dimen/margin_normal"
+            android:padding="@dimen/elevation_sm"
+            app:layout_constraintBottom_toBottomOf="@+id/mBatchNumber"
+            app:layout_constraintTop_toTopOf="@+id/mBatchNumber"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/mBatchNumber"
+            android:src="@drawable/ic_more_vert_black_24dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_smallest">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_xnormal">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+    <dimen name="margin_x_xlarge">32dp</dimen>
+    <dimen name="text_size_smallest">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_xnormal">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_xlarge">22sp</dimen>
+    <dimen name="line_spacing">8dp</dimen>
+    <dimen name="line_spacing_small">2dp</dimen>
+
+    <dimen name="zero_radius">0dp</dimen>
+    <dimen name="card_radius_small">2dp</dimen>
+    <dimen name="zero_height">0dp</dimen>
+
+    <dimen name="button_margin">128dp</dimen>
+    <dimen name="edit_text_margin">36dp</dimen>
+    <dimen name="padding_smallest">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_xnormal">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="et_margin">48dp</dimen>
+    <dimen name="top_margin">64dp</dimen>
+    <dimen name="horizontal_line_margin">2dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">216dp</dimen>
+    <dimen name="elevation_sm">2dp</dimen>
+    <dimen name="elevation_normal">4dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="margin_x6">48dp</dimen>
+    <dimen name="radius_sm">2dp</dimen>
+    <dimen name="zero_elevation">0dp</dimen>
+    <dimen name="one_dp">1dp</dimen>
+    <dimen name="line_spacing_normal">4dp</dimen>
+    <dimen name="stroke_width_normal">3dp</dimen>
+    <dimen name="peek_height">480dp</dimen>
+    <dimen name="radius_small">4dp</dimen>
+    <dimen name="radius_normal">8dp</dimen>
+    <dimen name="radius_large">16dp</dimen>
+    <dimen name="expanded_margin_end">56dp</dimen>
+    <dimen name="expanded_margin_start">12dp</dimen>
+    <dimen name="edit_text_padding">11dp</dimen>
+    <dimen name="collapsing_appbar_height">320dp</dimen>
+    <dimen name="card_width">232dp</dimen>
+    <dimen name="card_margin">2dp</dimen>
+    <dimen name="app_bar_layout_height">136dp</dimen>
+    <dimen name="indicator_height">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_normal">20dp</dimen>
+    <dimen name="zero_border_width">0dp</dimen>
+    <dimen name="zero_padding">0dp</dimen>
+    <dimen name="image_button_size">35dp</dimen>
+    <dimen name="home_card_margin">20dp</dimen>
+    <dimen name="fab_margin_small">16dp</dimen>
+    <dimen name="logo_size">112dp</dimen>
+
+    <!-- Simple Tooltip dimens -->
+    <dimen name="simpletooltip_max_width">150dp</dimen>
+    <dimen name="simpletooltip_overlay_offset">10dp</dimen>
+    <dimen name="simpletooltip_margin">10dp</dimen>
+    <dimen name="simpletooltip_padding">8dp</dimen>
+    <dimen name="simpletooltip_arrow_width">30dp</dimen>
+    <dimen name="simpletooltip_arrow_height">15dp</dimen>
+    <dimen name="simpletooltip_animation_padding">4dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="auto_complete_fragment_height">28dp</dimen>
+    <dimen name="radius_menu_large">225dp</dimen>
+    <dimen name="barcode_scanner_height">250dp</dimen>
+    <dimen name="login_logo_size">55dp</dimen>
+    <dimen name="card_height">225dp</dimen>
+    <dimen name="chart_card_height">450dp</dimen>
+    <dimen name="login_padding">75dp</dimen>
+
+</resources>
